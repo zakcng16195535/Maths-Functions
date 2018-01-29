@@ -6,7 +6,7 @@ int main()
 	int a, b, add, subtract, multiply;
 	float divide;
 
-	printf("Enter two numbers\n");
+	printf("Enter TWO numbers\n");
 	scanf("%i%i", &a, &b);
 
 	add = a + b;
@@ -19,6 +19,8 @@ int main()
 	printf("Multiplication = %i\n", multiply);
 	printf("Divide = %.2f\n", divide);
 
+	printf("Enter FIVE numbers\n");
+	scanf("%i%i%i%i%i", &a, &b, &c, &d, &e);
 	return 0;
 } 
 	
